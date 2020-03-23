@@ -32,7 +32,7 @@ body {
 }
 
 .myName {
-  transform: rotate(-90deg) translate(-32rem, 0);
+  transform: rotate(-90deg) translate(-34rem, 0);
   transform-origin: 0 0;
   width: 100vh;
   font-size: 50px;
@@ -44,7 +44,7 @@ body {
   transform-origin: 0 0;
   width: 100vh;
   font-size: 35px;
-  padding-top: 180px;
+  padding-top: 200px;
 }
 
 .content {
