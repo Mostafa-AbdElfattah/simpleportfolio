@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+  display: flex;
+}
+
+.sideLine {
+  border: none;
+  border-top: 1px solid gray;
+  transform: rotate(-270deg);
+  transform-origin: 0 0;
+  margin-left: 30px;
+  width: 100vh;
+}
+
+.sideBar {
+  background-color: #e1e1e1;
+  width: 25vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.myName {
+  transform: rotate(-90deg) translate(-32rem, 0);
+  transform-origin: 0 0;
+  width: 100vh;
+  font-size: 50px;
+  padding-top: 40px;
+}
+
+.mytitle {
+  transform: rotate(-90deg) translate(-20rem, 0);
+  transform-origin: 0 0;
+  width: 100vh;
+  font-size: 35px;
+  padding-top: 120px;
+}
+
+.content {
+  width: 75vw;
+  height: 100vh;
+}
+
+img {
+  width: 25vw;
+  filter: grayscale(80%);
+}
+
+h3 {
+  padding: 10px;
+}
+
+.bio {
+  padding: 8px;
+}
+
+.contentLine {
+  border: none;
+  border-top: 1px solid gray;
+}
+
+.mail , .webSite{
+    margin: 10px 5px 10px;
+    font-weight: 450;
+}
+
+.phone{
+    padding: 10px;
+}
